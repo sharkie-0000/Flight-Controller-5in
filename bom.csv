@@ -29,3 +29,6 @@ Qty,Component,Selected Part,Supplier,LCSC Part Number,Unit Price (USD),Order Cos
 1,5V Active Buzzer Header / Pads,PinHeader 1x02 1.27mm,LCSC,C2938,0.05,0.05,BZ1
 1,Camera Shutter / Strobe Header,PinHeader 1x03 2.54mm,LCSC,C2337,0.08,0.08,J_STROBE
 1,SWD Debug Header,PinHeader 1x04 1.27mm,LCSC,C2939,0.1,0.1,J_SWD
+5,"Custom 4-Layer PCB (36x36mm, JLCPCB JLC04161H-7628 Stackup)",Custom PCB,JLCPCB,JLC-4L-3636,1.00,5.00,PCB
+—,Total Components Cost,LCSC Components,LCSC,—,—,20.18,—
+—,Total Procurement Cost (Components + 5x PCBs),Complete 1-Unit Build + 5x PCBs,LCSC + JLCPCB,—,—,25.18,—

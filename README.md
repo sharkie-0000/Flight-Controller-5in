@@ -56,6 +56,7 @@ This board is a custom-designed flight controller for autonomous GPS-denied dron
 - **Power ICs:** 2 (TPS54302 5V 3A buck converter, MIC5219-3.3 low-noise LDO)
 - **MOSFETs / Diodes:** 3 (SMBJ28A TVS clamp, 2x 2N7002 N-channel FETs for buzzer & camera strobe)
 - **Connectors / Headers:** 8 (USB-C 16-pin, JST-SH 8-pin ESC, JST-SH 6-pin GPS, 3x JST-SH 4-pin for ToF/Flow/MAVLink, SWD header, Buzzer pads)
+- **Bare PCB Fabrication:** 5x 4-layer FR-4 boards (JLCPCB 36x36mm, JLC04161H-7628 stackup)
 
 ## BOM
 
@@ -91,3 +92,6 @@ This board is a custom-designed flight controller for autonomous GPS-denied dron
 | 1 | 5V Active Buzzer Header / Pads | PinHeader 1x02 1.27mm | LCSC | [C2938](https://www.lcsc.com/product-detail/C2938.html) | $0.05 | $0.05 |
 | 1 | Camera Shutter / Strobe Header | PinHeader 1x03 2.54mm | LCSC | [C2337](https://www.lcsc.com/product-detail/C2337.html) | $0.08 | $0.08 |
 | 1 | SWD Debug Header | PinHeader 1x04 1.27mm | LCSC | [C2939](https://www.lcsc.com/product-detail/C2939.html) | $0.10 | $0.10 |
+| 5 | Custom 4-Layer PCB (36x36mm, JLCPCB JLC04161H-7628 Stackup) | Custom PCB | JLCPCB | [JLCPCB](https://jlcpcb.com) | $1.00 | $5.00 |
+| **—** | **Total Components Cost** | | **LCSC** | | | **$20.18** |
+| **—** | **Total Procurement Cost (Components + 5x PCBs)** | | **LCSC + JLCPCB** | | | **~$25.18** |
