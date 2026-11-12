@@ -1,34 +1,35 @@
-Qty,Component,Selected Part,Supplier,LCSC Part Number,Unit Price (USD),Order Cost (USD),Designators
-1,"STM32H743VIT6 MCU (Cortex-M7 480MHz, 2MB Flash, LQFP-100)",STM32H743VIT6,LCSC,C143110,11.2,11.2,U3
-1,ICM-42688-P 6-Axis Low-Noise IMU (LGA-14),ICM-42688-P,LCSC,C2842426,2.85,2.85,U4
-1,DPS310 High-Precision Barometer (8-LGA),DPS310XTSA1,LCSC,C155453,1.45,1.45,U5
-1,W25Q128 16MB SPI NOR Flash (SOIC-8),W25Q128JVSIQ,LCSC,C97521,0.65,0.65,U6
-1,TPS54302 5V 3A Synchronous Buck Converter (SOT-23-6),TPS54302DDCR,LCSC,C115848,0.72,0.72,U1
-1,MIC5219-3.3 Ultra-Low-Noise LDO (SOT-23-5),MIC5219-3.3YM5,LCSC,C7899,0.38,0.38,U2
-1,SMBJ28A TVS Diode Clamp 600W (SMB),SMBJ28A,LCSC,C8536,0.12,0.12,D1
-1,4.7uH 4.5A Shielded Power Inductor (SMD 7x7mm),NR8040T4R7N,LCSC,C10452,0.35,0.35,L1
-1,25.000MHz High-Speed External Crystal (3225),X322525MOB4SI,LCSC,C9002,0.18,0.18,Y1
-2,2N7002 N-Channel MOSFET 60V 300mA (SOT-23),2N7002,LCSC,C8502,0.04,0.08,"Q1, Q2"
-1,USB-C 16-Pin Receptacle (SMD+DIP),TYPE-C-31-M-12,LCSC,C165948,0.28,0.28,J_USB
-1,JST-SH 8-Pin Horizontal 1.0mm (4-in-1 ESC),SM08B-SRSS-TB,LCSC,C160404,0.22,0.22,J_ESC
-1,JST-SH 6-Pin Horizontal 1.0mm (GPS/Compass),SM06B-SRSS-TB,LCSC,C160403,0.18,0.18,J_GPS
-2,JST-SH 4-Pin Horizontal 1.0mm (ToF & RC),SM04B-SRSS-TB,LCSC,C160401,0.15,0.3,"J_WALL_TOF, J_RC"
-1,JST-SH 4-Pin Horizontal 1.0mm (Optical Flow),SM04B-SRSS-TB,LCSC,C160401,0.15,0.15,J_FLOW
-1,JST-SH 4-Pin Horizontal 1.0mm (MAVLink Jetson),SM04B-SRSS-TB,LCSC,C160401,0.15,0.15,J_MAVLINK
-1,470uF 35V Low-ESR Bulk Electrolytic Capacitor,Radial Low-ESR,LCSC,C134444,0.25,0.25,C1
-2,22uF 10V Ceramic Capacitor (0805 X5R),22uF 10V 0805,LCSC,C45783,0.05,0.1,"C3, C4"
-1,10uF 50V Ceramic Capacitor (1206 X7R),10uF 50V 1206,LCSC,C13585,0.08,0.08,C2
-2,2.2uF 10V Ceramic Capacitor (0603 X7R - VCAP),2.2uF 10V 0603,LCSC,C23630,0.03,0.06,"C11, C12"
-14,100nF 16V Ceramic Decoupling Capacitor (0402 X7R),100nF 16V 0402,LCSC,C1525,0.005,0.07,"C5-C8, C13-C22"
-2,18pF 50V Crystal Load Capacitor (0402 C0G),18pF 50V 0402,LCSC,C1549,0.005,0.01,"C9, C10"
-1,10k 0.1% Precision Voltage Divider Resistor (0603),10k 0.1% 0603,LCSC,C25744,0.03,0.03,R1
-1,1.0k 0.1% Precision Voltage Divider Resistor (0603),1.0k 0.1% 0603,LCSC,C25741,0.03,0.03,R2
-2,5.1k 1% USB-C CC Pulldown Resistor (0402),5.1k 1% 0402,LCSC,C25905,0.004,0.01,"R3, R4"
-2,2.2k 1% I2C Bus Pullup Resistor (0402),2.2k 1% 0402,LCSC,C25879,0.004,0.01,"R5, R6"
-2,LED 0805 SMD (Blue Power / Green Armed),LED 0805,LCSC,C84256,0.02,0.04,"D2, D3"
-1,5V Active Buzzer Header / Pads,PinHeader 1x02 1.27mm,LCSC,C2938,0.05,0.05,BZ1
-1,Camera Shutter / Strobe Header,PinHeader 1x03 2.54mm,LCSC,C2337,0.08,0.08,J_STROBE
-1,SWD Debug Header,PinHeader 1x04 1.27mm,LCSC,C2939,0.1,0.1,J_SWD
-5,"Custom 4-Layer PCB (36x36mm, JLCPCB JLC04161H-7628 Stackup)",Custom PCB,JLCPCB,JLC-4L-3636,1.00,5.00,PCB
-—,Total Components Cost,LCSC Components,LCSC,—,—,20.18,—
-—,Total Procurement Cost (Components + 5x PCBs),Complete 1-Unit Build + 5x PCBs,LCSC + JLCPCB,—,—,25.18,—
+Qty,Component,Selected Part,Supplier,LCSC Part Number,Unit Price (USD),Order Cost (USD),Designators,Product URL
+1,"STM32H743VIT6 MCU (Cortex-M7 480MHz, 2MB Flash, LQFP-100)",STM32H743VIT6,LCSC,C114409,11.2,11.20,U3,https://www.lcsc.com/product-detail/C114409.html
+1,ICM-42688-P 6-Axis Low-Noise IMU (LGA-14),ICM-42688-P,LCSC,C1850418,2.85,2.85,U4,https://www.lcsc.com/product-detail/C1850418.html
+1,DPS310 High-Precision Barometer (8-LGA),DPS310,LCSC,C130156,1.45,1.45,U5,https://www.lcsc.com/product-detail/C130156.html
+1,W25Q128 16MB SPI NOR Flash (SOIC-8),W25Q128JVSIQ,LCSC,C97521,0.65,0.65,U6,https://www.lcsc.com/product-detail/C97521.html
+1,TPS54302 5V 3A Synchronous Buck Converter (SOT-23-6),TPS54302DDCR,LCSC,C311983,0.72,0.72,U1,https://www.lcsc.com/product-detail/C311983.html
+1,MIC5219-3.3 Ultra-Low-Noise LDO (SOT-23-5),MIC5219-3.3YM5-TR,LCSC,C29613,0.38,0.38,U2,https://www.lcsc.com/product-detail/C29613.html
+1,SMBJ28A TVS Diode Clamp 600W (SMB / DO-214AA),SMBJ28A,LCSC,C5331112,0.12,0.12,D1,https://www.lcsc.com/product-detail/C5331112.html
+1,4.7uH 4.5A Shielded Power Inductor (SMD 8x8mm),LLXBH8080YBL4R7N,LCSC,C5664938,0.35,0.35,L1,https://www.lcsc.com/product-detail/C5664938.html
+1,25.000MHz High-Speed External Crystal (3225),X322525MOB4SI,LCSC,C9006,0.18,0.18,Y1,https://www.lcsc.com/product-detail/C9006.html
+2,2N7002 N-Channel MOSFET 60V 300mA (SOT-23),2N7002,LCSC,C332103,0.04,0.08,"Q1, Q2",https://www.lcsc.com/product-detail/C332103.html
+1,USB-C 16-Pin Receptacle (SMD+DIP),TYPE-C-31-M-12,LCSC,C165948,0.28,0.28,J_USB,https://www.lcsc.com/product-detail/C165948.html
+1,JST-SH 8-Pin Horizontal 1.0mm (4-in-1 ESC),SM08B-SRSS-TB(LF)(SN),LCSC,C160407,0.22,0.22,J_ESC,https://www.lcsc.com/product-detail/C160407.html
+1,JST-SH 6-Pin Horizontal 1.0mm (GPS/Compass),SM06B-SRSS-TB(LF)(SN),LCSC,C160405,0.18,0.18,J_GPS,https://www.lcsc.com/product-detail/C160405.html
+2,JST-SH 4-Pin Horizontal 1.0mm (ToF & RC),SM04B-SRSS-TB(LF)(SN),LCSC,C160404,0.15,0.30,"J_WALL_TOF, J_RC",https://www.lcsc.com/product-detail/C160404.html
+1,JST-SH 4-Pin Horizontal 1.0mm (Optical Flow),SM04B-SRSS-TB(LF)(SN),LCSC,C160404,0.15,0.15,J_FLOW,https://www.lcsc.com/product-detail/C160404.html
+1,JST-SH 4-Pin Horizontal 1.0mm (MAVLink Jetson),SM04B-SRSS-TB(LF)(SN),LCSC,C160404,0.15,0.15,J_MAVLINK,https://www.lcsc.com/product-detail/C160404.html
+1,470uF 35V Low-ESR Bulk Radial Electrolytic Capacitor,470UF35VG170GF,LCSC,C46867056,0.25,0.25,C1,https://www.lcsc.com/product-detail/C46867056.html
+2,22uF 10V Ceramic Capacitor (0805 X5R),CL21A226MAQNNNE,LCSC,C45783,0.05,0.10,"C3, C4",https://www.lcsc.com/product-detail/C45783.html
+1,10uF 50V Ceramic Capacitor (1206 X7R),CL31A106KBHNNNE,LCSC,C13585,0.08,0.08,C2,https://www.lcsc.com/product-detail/C13585.html
+2,2.2uF 16V Ceramic Capacitor (0603 X5R - VCAP),CL10A225KO8NNNC,LCSC,C23630,0.03,0.06,"C11, C12",https://www.lcsc.com/product-detail/C23630.html
+14,100nF 16V Ceramic Decoupling Capacitor (0402 X7R),CL05B104KO5NNNC,LCSC,C1525,0.005,0.07,"C5-C8, C13-C22",https://www.lcsc.com/product-detail/C1525.html
+2,18pF 50V Crystal Load Capacitor (0402 C0G),0402CG180J500NT,LCSC,C1549,0.005,0.01,"C9, C10",https://www.lcsc.com/product-detail/C1549.html
+1,10k 1% Precision Voltage Divider Resistor (0603),0603WAF1002T5E,LCSC,C25804,0.03,0.03,R1,https://www.lcsc.com/product-detail/C25804.html
+1,1.0k 1% Precision Voltage Divider Resistor (0603),0603WAF1001T5E,LCSC,C21190,0.03,0.03,R2,https://www.lcsc.com/product-detail/C21190.html
+2,5.1k 1% USB-C CC Pulldown Resistor (0402),0402WGF5101TCE,LCSC,C25905,0.004,0.01,"R3, R4",https://www.lcsc.com/product-detail/C25905.html
+2,2.2k 1% I2C Bus Pullup Resistor (0402),0402WGF2201TCE,LCSC,C25879,0.004,0.01,"R5, R6",https://www.lcsc.com/product-detail/C25879.html
+1,LED 0805 SMD (Blue Power Indicator),NCD0805B2,LCSC,C84259,0.02,0.02,D2,https://www.lcsc.com/product-detail/C84259.html
+1,LED 0805 SMD (Green Status/Armed Indicator),KT-0805G,LCSC,C2297,0.02,0.02,D3,https://www.lcsc.com/product-detail/C2297.html
+1,5V Active Buzzer Header (PinHeader 1x02 2.54mm),B-2100S02P-A110,LCSC,C124375,0.05,0.05,BZ1,https://www.lcsc.com/product-detail/C124375.html
+1,Camera Shutter / Strobe Header (PinHeader 1x03 2.54mm),B-2100S03P-A110,LCSC,C124376,0.08,0.08,J_STROBE,https://www.lcsc.com/product-detail/C124376.html
+1,SWD Debug Header (PinHeader 1x04 2.54mm),B-2100S04P-A110,LCSC,C124378,0.1,0.10,J_SWD,https://www.lcsc.com/product-detail/C124378.html
+5,"Custom 4-Layer PCB (36x36mm, JLCPCB JLC04161H-7628 Stackup)",Custom PCB,JLCPCB,JLC-4L-3636,1,5.00,PCB,https://jlcpcb.com
+—,Total Components Cost,LCSC Components,LCSC,—,—,20.18,—,—
+—,Total Procurement Cost (Components + 5x PCBs),Complete 1-Unit Build + 5x PCBs,LCSC + JLCPCB,—,—,25.18,—,—
